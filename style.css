@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+
+}
+*,*::after,::before{
+    margin:0px ;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width:1200px ;
+    width: 90%;
+    margin: auto;
+}
+
+/* ............navbar............. */
+ul li{
+    list-style: none;
+    border-bottom: 3px solid transparent;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    margin-left: 10px;
+}
+
+.main-nav{
+    background-color:rgb(215, 165, 215);
+    font-size: 25px;
+    top:0;
+    position: sticky;
+    z-index: 100;
+    box-shadow: 3px 3px 3px black;
+
+}
+
+.nav-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+.nav-container ul{
+    display: flex;
+    gap: 15px;
+
+}
+
+
+ul li:hover{
+    border-bottom: 3px solid white;
+
+}
+
+/* ................overview........................ */
+
+.overview-container{
+    height: 100vh;
+    background-image: url(img/music6.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.overview-area img{
+    display: grid;
+    height: 100vh;
+}
+
+
+.overview-container{
+    display: flex;
+    place-items:center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(247, 243, 244);
+    /* font-size: 20px;
+    font-weight:600 ; */
+}
+
+.head{
+    font-size: 40px;
+}
+ 
+.para{
+    font-size: 25px;
+}
+
+/* ................music section............. */
+
+.btn{
+    border: none;
+    outline: none;
+    padding: 15px;
+    background-color: rgb(235, 52, 52);
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+.music-section{
+    text-align: center;
+    display: flex;
+    background-color: rgb(133, 125, 125);
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-height:600vh;
+}
+
+
+.img-sec img{
+    margin-top: -400px;
+    position: relative;
+    top: 400px;
+    margin-bottom: 50px;
+}
+
+.music-section h1,h2,p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.music-section p{
+    font-size: 20px;
+}
+
+
+/* ................about................. */
+
+.about-section{
+    text-align: center;
+    display: block;
+    padding-top: 500px;
+    
+}
+
+.about-section .head-about{
+    text-align: center;
+    display: flex;
+    font-size: 20px;
+}
+
+
+.about-section .btn,img {
+    margin-bottom: 20px;
+}
+
+/* .....................more-about.............................. */
+
+.more-about{
+    display: grid; 
+    
+    background-image: url(img/music9.jpg);
+    text-align: center;
+    place-items:center;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 800px;
+    
+}
+
+
+.more-about .container{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+}
+
+.para-video{
+    font-size: 20px;
+}
+
+
+/* .........................gift section............... */
+.head-gift{
+    text-align: center;
+}
+.gift-section{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.gift-content h3{
+    font-family: 600;
+}
+
+.gift-content p{
+    font-size: 20px;
+}
+
+
+.footer-section{
+    text-align: center;
+    background-color: rgb(219, 132, 132);
+    padding: 30px;
+    color: white;
+}
